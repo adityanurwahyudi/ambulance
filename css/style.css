@@ -9802,3 +9802,12 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .owl-carousel.owl-drag .owl-item {
+      -ms-touch-action: auto;
+      touch-action: auto;
+      -webkit-user-select: all;
+      -moz-user-select: all;
+      -ms-user-select: all;
+      user-select: all;
+      }
